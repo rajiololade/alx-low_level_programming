@@ -10,7 +10,7 @@ int main(void)
 	char capital_letter;
 
 		for (small_letter = 'a'; small_letter <= 'z'; small_letter++)
-			
+
 		{
 			putchar(small_letter);
 		}
