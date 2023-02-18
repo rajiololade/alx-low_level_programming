@@ -7,10 +7,10 @@
 int main(void) /* The code should return an integer*/
 
 {
-	char alphabet; /* Declaring the character*/
 	int n;
+	char alphabet; /* Declaring the character*/
 
-	for (n = 48; n <= 58; n++)
+	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
 	}
