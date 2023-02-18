@@ -12,6 +12,8 @@ int main(void)
 {
 	int n;
 
+	n = getchar();
+
 	for (n = 0; n <= 10; n++)
 
 	{
@@ -19,6 +21,7 @@ int main(void)
 	}
 
 	putchar("\n");
+	n = getchar();
 
 return (0);
 
