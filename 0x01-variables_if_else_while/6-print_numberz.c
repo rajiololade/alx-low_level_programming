@@ -12,16 +12,14 @@ int main(void)
 {
 	int n;
 
-	n = getchar();
 
 	for (n = 0; n <= 10; n++)
 
 	{
-		putchar(n);
+		putchar('0' + n);
 	}
 
 	putchar("\n");
-	n = getchar();
 
 return (0);
 
