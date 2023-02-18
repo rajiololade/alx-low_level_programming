@@ -9,7 +9,7 @@ int main(void) /* The code should return an integer*/
 {
 	char alphabet; /* Declaring the character*/
 
-	for (alphabet = 'z'; alphabet <= 'a'; alphabet--)
+	for (alphabet = 'z'; alphabet >= 'a'; alphabet--)
 
 	{
 		putchar(alphabet); /*main function*/
