@@ -4,17 +4,16 @@
  *
  * Return: Always 0 (Success/correct)
  */
-int main(void)
+int main(void) /* The code should return an integer*/
 
 {
-	char alphabet;
+	char alphabet; /* Declaring the character*/
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++) /* The for loop condition to print a-z by increamenting a-z by 1*/
 
 	{
-		putchar(alphabet);
+		putchar(alphabet,"\n"); /*main function*/
 	}
-		putchar('\n');
 
 	return (0);
 }
