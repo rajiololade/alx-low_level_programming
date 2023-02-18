@@ -12,8 +12,9 @@ int main(void) /* The code should return an integer*/
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++) /* The for loop condition to print a-z by increamenting a-z by 1*/
 
 	{
-		putchar(alphabet,'\n'); /*main function*/
+		putchar(alphabet); /*main function*/
 	}
+		putchar('\n');
 
 	return (0);
 }
