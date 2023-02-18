@@ -9,7 +9,7 @@ int main(void) /* The code should return an integer*/
 {
 	char alphabet; /* Declaring the character*/
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++) /* The for loop condition to print a-z by increamenting a-z by 1*/
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 
 	{
 		putchar(alphabet); /*main function*/
