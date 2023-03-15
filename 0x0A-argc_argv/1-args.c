@@ -3,14 +3,14 @@
 
 /**
  * main - Entry point
- * @argc: part of an argument
- * @argv:array of the argument
+ * @argc: Argument count
+ * @argv: Argument vecor
  *
  * Return: Always 0 (Success)
  */
 
 int main(int argc, char *argv[])
 {
-	printf("%s\n", argv);
+	printf("%d\n", argc);
 	return (0);
 }
